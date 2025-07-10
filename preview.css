@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url('g1.jpg.jpg');
+    background-repeat:  no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover;
+    color: white;
+    align-content: center;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+    
+}
+.Years ul{
+    padding-top: -300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+}
+.Years ul li{
+    justify-content: space-between;
+    padding:40px;
+    display: flex;
+    margin-right: 50px;
+    color:white;
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer; 
+}
+.Years ul li a{
+    color: white;
+}
